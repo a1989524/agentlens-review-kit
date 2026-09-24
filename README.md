@@ -6,9 +6,9 @@
 
 A small TypeScript module that separates **what was proposed, what a person allowed, what happened, and what the evidence supports**. Run the review rules around an AI workflow without a model, API key, or private service.
 
-**Built independently by Lei Qian · AI Product Engineer**
+**Yi Qian · AI Product Manager**
 
-Adapted from lifecycle concepts in my private AgentLens workbench. This is an independent engineering sample with a reduced contract and additional input checks, not the complete application.
+Adapted from the lifecycle rules of the AgentLens review workbench (company anonymized under contract terms; team of 1–10). The internal workbench has 62 deterministic tests, and this kit contains 14 of them. It is an engineering sample with a reduced contract and additional input checks, not the complete application.
 
 [Core example](#core-example) · [State flow](#state-flow) · [Run locally](#run-locally) · [Design and limits](#design-and-limits)
 
@@ -148,7 +148,7 @@ node scripts/export-scenarios.mjs scenarios.json
 | [Executable scenarios](examples/scenarios.mjs) | Complete calls for four replay scenarios |
 | [Behavior tests](tests/lifecycle.test.mjs) | Inspectable expectations and failure cases |
 
-Independently designed and implemented by **Lei Qian**. [MIT licensed](LICENSE); no third-party source is bundled.
+Designed and maintained by **Yi Qian**. [MIT licensed](LICENSE); no third-party source is bundled.
 
 ---
 
